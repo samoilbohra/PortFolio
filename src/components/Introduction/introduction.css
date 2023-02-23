@@ -1,0 +1,27 @@
+.firsth1{
+    position : relative;
+    right : 42%;
+}
+.secondh1{
+ position : relative;
+ left : 30%;    bottom: 20px;
+}
+.introPara{
+    position: relative;
+    /* left:3% */
+}
+@media screen  and (max-width: 767px) {
+    .introduction{
+        
+    }
+    .firsth1{
+       position:static;
+
+    }
+    .secondh1{
+        position: static;
+    }
+    .introPara{
+        position: static;
+    }
+}

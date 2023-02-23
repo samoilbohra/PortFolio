@@ -1,0 +1,33 @@
+.footerLink{
+
+    margin: 20px;
+    font-size: 1.5rem;
+    
+}
+a.footerLink:hover{
+    color: aliceblue;
+    font-size: 2.5rem;
+}
+.bottom
+{
+    position: relative;
+    height : 100px;
+    
+}
+.footerCopywright{
+    position: absolute;
+    bottom: 0px;
+    color: white ;
+    font-weight: lighter;
+}
+
+@media screen  and (max-width: 767px)
+{
+    .footerLink{
+
+    margin: 20px;
+    font-size: 1.2rem;
+    
+}
+
+}
